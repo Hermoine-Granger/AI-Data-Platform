@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ai-data-platform"
+version = "0.1.0"
+description = ""
+authors = ["Himani Sharma"]
+readme = "README.md"
+packages = [{include = "ai_data_platform"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+fastapi = "^0.128.0"
+uvicorn = "^0.40.0"
+pydantic-settings = "^2.12.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
