@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "backend"
+version = "0.1.0"
+description = "Apache Beam ETL Backend"
+authors = ["Himani Sharma"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+apache-beam = { version = "^2.56.0"}
+fastapi = "^0.115.0"
+uvicorn = { version = "^0.30.0", extras = ["standard"] }
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
